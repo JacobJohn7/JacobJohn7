@@ -8,6 +8,9 @@ I build hands-on virtual laboratory environments (VirtualBox, pfSense, Windows S
 
 ### 🛡️ Featured Hands-On Security Labs
 
+- **[Linux-Server-Hardening-Auditd-Fail2ban](https://github.com/JacobJohn7/Linux-Server-Hardening-Auditd-Fail2ban)**  
+  Ubuntu Server security hardening featuring OpenSSH daemon configuration (`PermitRootLogin no`, `MaxAuthTries 4`, `ClientAliveInterval 15`), **UFW** stateful host firewall policy (default deny incoming/routed), **Fail2Ban** intrusion prevention with UFW banaction binding (`banaction = ufw`), and Linux **Auditd** CIS benchmark rules (`/etc/audit/rules.d/cis-hardening.rules`) tracking credential files and privilege modifications.
+
 - **[pfSense-Suricata-NIPS-Lab](https://github.com/JacobJohn7/pfSense-Suricata-NIPS-Lab)**  
   Enterprise virtual firewall deployment (`pfSense 2.7.2`) configured as a central gateway for a multi-VM lab. Features hard network isolation (NAT disabled on client VMs to enforce 100% gateway inspection), **Suricata Inline NIPS** via BSD `netmap`, `snort2c` kernel table IP blocking, and **pfBlockerNG-devel** DNSBL domain sinkholing via Unbound DNS resolver.
 
@@ -25,9 +28,9 @@ I build hands-on virtual laboratory environments (VirtualBox, pfSense, Windows S
 ### 🧰 Core Technical Toolkit
 
 - **SIEM & Log Analytics:** Splunk Enterprise, SPL Queries, Universal Forwarder, Windows Event Viewer, Sysmon Operational Channel, MITRE ATT&CK Mapping.
-- **Network Security & Firewalls:** pfSense 2.7.x, Suricata (NIDS/NIPS), pfBlockerNG-devel, Unbound DNS Resolver, BSD `netmap`, `pfctl`.
+- **Network Security & Firewalls:** pfSense 2.7.x, Suricata (NIDS/NIPS), pfBlockerNG-devel, Unbound DNS Resolver, BSD `netmap`, `pfctl`, UFW, Fail2Ban.
+- **Endpoint Hardening & OS:** OpenSSH Hardening, Linux Auditd, CIS Benchmarks, Sysmon v15.x, Windows Server 2022, Ubuntu Server/Desktop, Arch Linux.
 - **Packet Analysis & Telemetry:** Zeek (Bro), `tshark` / Wireshark, PCAP slicing, TCP/IP protocol dissection.
-- **Endpoint Security & OS:** Windows Server 2022, Windows 10, Ubuntu Server/Desktop, Arch Linux, PowerShell, Bash scripting.
 
 ---
 
