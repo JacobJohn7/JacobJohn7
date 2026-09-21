@@ -1,12 +1,15 @@
 # Hi, I'm Jacob John 👋
 
-Cybersecurity student preparing for **CompTIA Security+ (SY0-701)** with a focus on Security Operations Center (SOC) analysis, network security monitoring (NSM), endpoint hardening, and SIEM rule engineering.
+Cybersecurity student preparing for **CompTIA Security+ (SY0-701)** with a focus on Security Operations Center (SOC) analysis, network security monitoring (NSM), Active Directory administration, and endpoint hardening.
 
-I build hands-on virtual laboratory environments (VirtualBox, pfSense, Windows Server 2022, Ubuntu, Arch Linux) to practice real-world detection, log correlation, and threat mitigation.
+I build hands-on virtual laboratory environments (VirtualBox, pfSense, Windows Server 2019/2022, Active Directory, Ubuntu, Arch Linux) to practice real-world detection, log correlation, and threat mitigation.
 
 ---
 
 ### 🛡️ Featured Hands-On Security Labs
+
+- **[Active-Directory-Lab-Homelab](https://github.com/JacobJohn7/Active-Directory-Lab-Homelab)**  
+  Active Directory Domain Services (AD DS) infrastructure on Windows Server 2019 (`DC01` - `192.168.56.10`, domain `homelab.local`). Features automated PowerShell provisioning script (`Deploy-ADLab.ps1`) for Organizational Units (OUs), security groups (`Sec_Tier1_SOC`), and users, alongside domain-joined Windows 10 workstation setup (`192.168.56.108`) and AD port/service dissection (KDC 88/464, LDAP 389/636, SMB 445, Global Catalog 3268, WinRM 5985).
 
 - **[Linux-Server-Hardening-Auditd-Fail2ban](https://github.com/JacobJohn7/Linux-Server-Hardening-Auditd-Fail2ban)**  
   Ubuntu Server security hardening featuring OpenSSH daemon configuration (`PermitRootLogin no`, `MaxAuthTries 4`, `ClientAliveInterval 15`), **UFW** stateful host firewall policy (default deny incoming/routed), **Fail2Ban** intrusion prevention with UFW banaction binding (`banaction = ufw`), and Linux **Auditd** CIS benchmark rules (`/etc/audit/rules.d/cis-hardening.rules`) tracking credential files and privilege modifications.
@@ -27,9 +30,10 @@ I build hands-on virtual laboratory environments (VirtualBox, pfSense, Windows S
 
 ### 🧰 Core Technical Toolkit
 
+- **Active Directory & Identity:** AD DS, Domain Controller (Windows Server 2019/2022), Group Policy (GPO), Kerberos, LDAP/LDAPS, PowerShell ActiveDirectory Module, WinRM.
 - **SIEM & Log Analytics:** Splunk Enterprise, SPL Queries, Universal Forwarder, Windows Event Viewer, Sysmon Operational Channel, MITRE ATT&CK Mapping.
 - **Network Security & Firewalls:** pfSense 2.7.x, Suricata (NIDS/NIPS), pfBlockerNG-devel, Unbound DNS Resolver, BSD `netmap`, `pfctl`, UFW, Fail2Ban.
-- **Endpoint Hardening & OS:** OpenSSH Hardening, Linux Auditd, CIS Benchmarks, Sysmon v15.x, Windows Server 2022, Ubuntu Server/Desktop, Arch Linux.
+- **Endpoint Hardening & OS:** OpenSSH Hardening, Linux Auditd, CIS Benchmarks, Sysmon v15.x, Windows Server 2019/2022, Ubuntu Server/Desktop, Arch Linux.
 - **Packet Analysis & Telemetry:** Zeek (Bro), `tshark` / Wireshark, PCAP slicing, TCP/IP protocol dissection.
 
 ---
