@@ -8,6 +8,9 @@ I build hands-on virtual laboratory environments (VirtualBox, pfSense, Windows S
 
 ### Featured Hands-On Security Labs
 
+- **[Wazuh-SIEM-FIM-Lab](https://github.com/JacobJohn7/Wazuh-SIEM-FIM-Lab)**  
+  Enterprise SIEM deployment on Ubuntu 22.04 manager (`Wazuh 4.12.0`) monitoring a Windows 10 target endpoint. Features centralized real-time File Integrity Monitoring (`agent.conf`), Windows Event Channel log ingestion, Level 12 critical privilege escalation detection (Event ID 4732 / Rule 60154), and MITRE ATT&CK mapping (T1098, T1492, T1059.001).
+
 - **[Active-Directory-Lab-Homelab](https://github.com/JacobJohn7/Active-Directory-Lab-Homelab)**  
   Active Directory Domain Services (AD DS) infrastructure on Windows Server 2019 (`DC01` - `192.168.56.10`, domain `homelab.local`). Features automated PowerShell provisioning script (`Deploy-ADLab.ps1`) for Organizational Units (OUs), security groups (`Sec_Tier1_SOC`), and users, alongside domain-joined Windows 10 workstation setup (`192.168.56.108`) and AD port/service dissection (KDC 88/464, LDAP 389/636, SMB 445, Global Catalog 3268, WinRM 5985).
 
@@ -28,7 +31,7 @@ I build hands-on virtual laboratory environments (VirtualBox, pfSense, Windows S
 ### Core Technical Toolkit
 
 - **Active Directory & Identity:** AD DS, Domain Controller (Windows Server 2019/2022), Group Policy (GPO), Kerberos, LDAP/LDAPS, PowerShell ActiveDirectory Module, WinRM.
-- **SIEM & Log Analytics:** Splunk Enterprise, SPL Queries, Universal Forwarder, Windows Event Viewer, Sysmon Operational Channel, MITRE ATT&CK Mapping.
+- **SIEM & Log Analytics:** Wazuh SIEM Manager, Real-Time FIM (Syscheck), OpenSearch Indexer, Wazuh Dashboard, Splunk Enterprise, SPL Queries, Universal Forwarder, Windows Event Viewer, Sysmon Operational Channel, MITRE ATT&CK Mapping.
 - **Network Security & Firewalls:** pfSense 2.7.x, Suricata (NIDS/NIPS), pfBlockerNG-devel, Unbound DNS Resolver, BSD `netmap`, `pfctl`, UFW, Fail2Ban.
 - **Endpoint Hardening & OS:** OpenSSH Hardening, Linux Auditd, CIS Benchmarks, Sysmon v15.x, Windows Server 2019/2022, Ubuntu Server/Desktop, Arch Linux.
 - **Packet Analysis & Telemetry:** Zeek (Bro), `tshark` / Wireshark, PCAP slicing, TCP/IP protocol dissection.
