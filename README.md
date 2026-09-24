@@ -1,4 +1,4 @@
-# Hi, I'm Jacob John 👋
+# Hi, I'm Jacob John
 
 Cybersecurity student preparing for **CompTIA Security+ (SY0-801)** with a focus on Security Operations Center (SOC) analysis, network security monitoring (NSM), Active Directory administration, and endpoint hardening.
 
@@ -6,7 +6,7 @@ I build hands-on virtual laboratory environments (VirtualBox, pfSense, Windows S
 
 ---
 
-### 🛡️ Featured Hands-On Security Labs
+### Featured Hands-On Security Labs
 
 - **[Active-Directory-Lab-Homelab](https://github.com/JacobJohn7/Active-Directory-Lab-Homelab)**  
   Active Directory Domain Services (AD DS) infrastructure on Windows Server 2019 (`DC01` - `192.168.56.10`, domain `homelab.local`). Features automated PowerShell provisioning script (`Deploy-ADLab.ps1`) for Organizational Units (OUs), security groups (`Sec_Tier1_SOC`), and users, alongside domain-joined Windows 10 workstation setup (`192.168.56.108`) and AD port/service dissection (KDC 88/464, LDAP 389/636, SMB 445, Global Catalog 3268, WinRM 5985).
@@ -25,7 +25,7 @@ I build hands-on virtual laboratory environments (VirtualBox, pfSense, Windows S
 
 ---
 
-### 🧰 Core Technical Toolkit
+### Core Technical Toolkit
 
 - **Active Directory & Identity:** AD DS, Domain Controller (Windows Server 2019/2022), Group Policy (GPO), Kerberos, LDAP/LDAPS, PowerShell ActiveDirectory Module, WinRM.
 - **SIEM & Log Analytics:** Splunk Enterprise, SPL Queries, Universal Forwarder, Windows Event Viewer, Sysmon Operational Channel, MITRE ATT&CK Mapping.
@@ -35,7 +35,7 @@ I build hands-on virtual laboratory environments (VirtualBox, pfSense, Windows S
 
 ---
 
-### 📬 Contact & Links
+### Contact & Links
 
 - **GitHub Profile:** [github.com/JacobJohn7](https://github.com/JacobJohn7)
 - **Target Certification:** CompTIA Security+ (SY0-801)
