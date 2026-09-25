@@ -26,6 +26,15 @@ I enjoy building virtual labs with tools like VirtualBox, pfSense, Windows Serve
 
 ## Security Labs
 
+### [Honeypot Threat Intelligence Lab](https://github.com/JacobJohn7/Honeypot-Threat-Intelligence-Lab)
+Enterprise honeypot environment running Cowrie SSH/Telnet medium-interaction honeypot integrated with Wazuh SIEM.
+
+Key areas:
+- Automated port decoying (Host SSH on `22022`, Honeypot SSH/Telnet on `22`/`23`)
+- Custom Wazuh XML detection rules for brute-force attacks, logins, commands, and downloads
+- Python threat intel log parser (`honeypot_log_parser.py`) extracting attacker IPs, credentials, and payload SHA256 hashes
+- MITRE ATT&CK mapping (T1110.001, T1078, T1059.004, T1105)
+
 ### [Wazuh SIEM + FIM Lab](https://github.com/JacobJohn7/Wazuh-SIEM-FIM-Lab)
 Enterprise-style SIEM deployment on Ubuntu 22.04 using Wazuh 4.12.0 to monitor a Windows 10 endpoint.
 
