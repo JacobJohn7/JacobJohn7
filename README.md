@@ -2,11 +2,11 @@
 
 Cybersecurity student focused on Security Operations, network defense, endpoint hardening, and hands-on security engineering.
 
-> Preparing for CompTIA Security+ (SY0-701) | Interested in SOC analysis, threat detection, AD administration, and proactive security operations
+> Google Cybersecurity Certified | TryHackMe Practitioner | Interested in SOC analysis, threat detection, AD administration, and proactive security operations
 
 ## About Me
 
-I’m a cybersecurity learner building practical, real-world lab environments to strengthen my understanding of defensive security operations.
+I’m a cybersecurity learner building practical, real-world lab environments and completing hands-on security modules to strengthen my defensive security operations skills.
 
 My focus includes:
 - SOC analysis and security monitoring
@@ -114,9 +114,10 @@ Key areas:
 - PCAP review
 - TCP / IP protocol analysis
 
-## Certifications
+## Certifications & Training
 
-- **Targeting:** CompTIA Security+ (SY0-701)
+- **Google Cybersecurity Professional Certificate** (Coursera)
+- **TryHackMe:** Active hands-on learning in SOC analysis, network defense, and threat hunting
 
 ## Contact & Links
 
@@ -127,7 +128,7 @@ Key areas:
 
 I’m building hands-on experience in defensive security by:
 - Simulating enterprise environments
-- Practicing detection and response workflows
+- Practicing detection and response workflows on TryHackMe & homelabs
 - Hardening endpoints and services
 - Learning how to trace malicious activity across systems and networks
 
