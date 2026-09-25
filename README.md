@@ -1,6 +1,13 @@
 # Hi, I'm Jacob John 👋
 
-Cybersecurity student focused on Security Operations, network defense, endpoint hardening, and hands-on security engineering.
+![Wazuh SIEM](https://img.shields.io/badge/Wazuh_SIEM-000000?style=for-the-badge&logo=wazuh&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+![pfSense](https://img.shields.io/badge/pfSense-212529?style=for-the-badge&logo=pfsense&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![CompTIA Sec+](https://img.shields.io/badge/CompTIA-Security%2B_SY0--801-FF0000?style=for-the-badge&logo=comptia&logoColor=white)
+
+Cybersecurity student preparing for **CompTIA Security+ (SY0-801)** with a focus on Security Operations Center (SOC) analysis, network security monitoring (NSM), Active Directory administration, and endpoint hardening.
 
 > Google Cybersecurity Certified | TryHackMe SOC Level 1 | Interested in SOC analysis, threat detection, AD administration, and proactive security operations
 
