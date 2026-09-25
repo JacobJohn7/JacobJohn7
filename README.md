@@ -2,7 +2,7 @@
 
 Cybersecurity student focused on Security Operations, network defense, endpoint hardening, and hands-on security engineering.
 
-> Google Cybersecurity Certified | TryHackMe Practitioner | Interested in SOC analysis, threat detection, AD administration, and proactive security operations
+> Google Cybersecurity Certified | TryHackMe SOC Level 1 | Interested in SOC analysis, threat detection, AD administration, and proactive security operations
 
 ## About Me
 
@@ -117,7 +117,7 @@ Key areas:
 ## Certifications & Training
 
 - **Google Cybersecurity Professional Certificate** (Coursera)
-- **TryHackMe:** Active hands-on learning in SOC analysis, network defense, and threat hunting
+- **TryHackMe — SOC Level 1 Learning Path** *(Completed Nov 2025 · 65+ Hours · Cert ID: `THM-3FTSMN5VCZ`)*
 
 ## Contact & Links
 
