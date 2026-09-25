@@ -1,44 +1,136 @@
-# Hi, I'm Jacob John
+# Hi, I'm Jacob John 👋
 
-Cybersecurity student preparing for **CompTIA Security+ (SY0-801)** with a focus on Security Operations Center (SOC) analysis, network security monitoring (NSM), Active Directory administration, and endpoint hardening.
+Cybersecurity student focused on Security Operations, network defense, endpoint hardening, and hands-on security engineering.
 
-I build hands-on virtual laboratory environments (VirtualBox, pfSense, Windows Server 2019/2022, Active Directory, Ubuntu, Arch Linux) to practice real-world detection, log correlation, and threat mitigation.
+> Preparing for CompTIA Security+ (SY0-701) | Interested in SOC analysis, threat detection, AD administration, and proactive security operations
+
+## About Me
+
+I’m a cybersecurity learner building practical, real-world lab environments to strengthen my understanding of defensive security operations.
+
+My focus includes:
+- SOC analysis and security monitoring
+- Network Security Monitoring (NSM)
+- Active Directory administration and identity security
+- Endpoint hardening and system resilience
+- Log correlation, detection engineering, and incident response fundamentals
+
+I enjoy building virtual labs with tools like VirtualBox, pfSense, Windows Server, Active Directory, Ubuntu, and Arch Linux to study how attackers operate and how defenders detect, contain, and mitigate threats.
+
+## Security Labs
+
+### [Wazuh SIEM + FIM Lab](https://github.com/JacobJohn7/Wazuh-SIEM-FIM-Lab)
+Enterprise-style SIEM deployment on Ubuntu 22.04 using Wazuh 4.12.0 to monitor a Windows 10 endpoint.
+
+Key areas:
+- Centralized File Integrity Monitoring (FIM)
+- Windows Event Channel log ingestion
+- Detection of high-risk privilege escalation activity
+- Event correlation mapped to MITRE ATT&CK techniques
+
+### [Active Directory Lab](https://github.com/JacobJohn7/Active-Directory-Lab-Homelab)
+Windows Server 2019 homelab environment using Active Directory Domain Services.
+
+Key areas:
+- Domain controller setup and AD architecture
+- OU, group, and user provisioning via PowerShell
+- Domain-joined Windows 10 workstation configuration
+- AD service and port review (Kerberos, LDAP, SMB, WinRM, Global Catalog)
+
+### [Linux Server Hardening + Auditd + Fail2Ban Lab](https://github.com/JacobJohn7/Linux-Server-Hardening-Auditd-Fail2ban)
+Ubuntu hardening lab focused on secure Linux operations and monitoring.
+
+Key areas:
+- SSH daemon hardening
+- UFW stateful firewall policy
+- Fail2Ban intrusion prevention setup
+- Auditd security monitoring for credential and privilege changes
+
+### [pfSense + Suricata NIPS Lab](https://github.com/JacobJohn7/pfSense-Suricata-NIPS-Lab)
+Virtualized network defense environment using pfSense 2.7.x and Suricata.
+
+Key areas:
+- Gateway-focused traffic inspection
+- Network isolation and enforcement
+- Inline IDS/NIPS configuration via BSD netmap
+- DNS sinkholing and blocklist enforcement
+
+### [Windows OS Hardening + Sysmon Lab](https://github.com/JacobJohn7/Windows-OS-Hardening-Sysmon-Lab)
+Windows 10 endpoint security lab aligned with hardening best practices.
+
+Key areas:
+- CIS-style configuration hardening
+- SMBv1 and legacy protocol removal
+- PowerShell Script Block Logging (Event ID 4104)
+- Sysmon telemetry for process, network, file, and DNS activity
+
+### [Network Traffic Analysis + IDS Lab](https://github.com/JacobJohn7/Network-Traffic-Analysis-IDS-Lab)
+Traffic analysis and packet triage focused on detection and forensics.
+
+Key areas:
+- tshark and Wireshark-based PCAP triage
+- Zeek log review
+- Suricata custom signature work
+- Network protocol and session inspection
+
+## Core Technical Toolkit
+
+### Active Directory & Identity
+- Active Directory Domain Services
+- Group Policy (GPO)
+- Kerberos
+- LDAP / LDAPS
+- PowerShell ActiveDirectory module
+- WinRM
+
+### SIEM & Log Analytics
+- Wazuh SIEM
+- File Integrity Monitoring (Syscheck)
+- Windows Event Viewer
+- Sysmon
+- Splunk
+- MITRE ATT&CK mapping
+- Log correlation and alert triage
+
+### Network Security & Firewalls
+- pfSense 2.7.x
+- Suricata (NIDS/NIPS)
+- pfBlockerNG-devel
+- Unbound DNS Resolver
+- UFW
+- Fail2Ban
+
+### Endpoint Hardening & OS Security
+- Ubuntu Server / Desktop
+- Arch Linux
+- Windows Server 2019 / 2022
+- OpenSSH hardening
+- Linux Auditd
+- CIS benchmarking
+
+### Packet Analysis & Telemetry
+- Zeek (Bro)
+- tshark / Wireshark
+- PCAP review
+- TCP / IP protocol analysis
+
+## Certifications
+
+- **Targeting:** CompTIA Security+ (SY0-701)
+
+## Contact & Links
+
+- **GitHub:** [github.com/JacobJohn7](https://github.com/JacobJohn7)
+- **LinkedIn:** [linkedin.com/in/jacob-john-97b589331](https://linkedin.com/in/jacob-john-97b589331/)
+
+## Current Focus
+
+I’m building hands-on experience in defensive security by:
+- Simulating enterprise environments
+- Practicing detection and response workflows
+- Hardening endpoints and services
+- Learning how to trace malicious activity across systems and networks
 
 ---
 
-### Featured Hands-On Security Labs
-
-- **[Wazuh-SIEM-FIM-Lab](https://github.com/JacobJohn7/Wazuh-SIEM-FIM-Lab)**  
-  Enterprise SIEM deployment on Ubuntu 22.04 manager (`Wazuh 4.12.0`) monitoring a Windows 10 target endpoint. Features centralized real-time File Integrity Monitoring (`agent.conf`), Windows Event Channel log ingestion, Level 12 critical privilege escalation detection (Event ID 4732 / Rule 60154), and MITRE ATT&CK mapping (T1098, T1492, T1059.001).
-
-- **[Active-Directory-Lab-Homelab](https://github.com/JacobJohn7/Active-Directory-Lab-Homelab)**  
-  Active Directory Domain Services (AD DS) infrastructure on Windows Server 2019 (`DC01` - `192.168.56.10`, domain `homelab.local`). Features automated PowerShell provisioning script (`Deploy-ADLab.ps1`) for Organizational Units (OUs), security groups (`Sec_Tier1_SOC`), and users, alongside domain-joined Windows 10 workstation setup (`192.168.56.108`) and AD port/service dissection (KDC 88/464, LDAP 389/636, SMB 445, Global Catalog 3268, WinRM 5985).
-
-- **[Linux-Server-Hardening-Auditd-Fail2ban](https://github.com/JacobJohn7/Linux-Server-Hardening-Auditd-Fail2ban)**  
-  Ubuntu Server security hardening featuring OpenSSH daemon configuration (`PermitRootLogin no`, `MaxAuthTries 4`, `ClientAliveInterval 15`), **UFW** stateful host firewall policy (default deny incoming/routed), **Fail2Ban** intrusion prevention with UFW banaction binding (`banaction = ufw`), and Linux **Auditd** CIS benchmark rules (`/etc/audit/rules.d/cis-hardening.rules`) tracking credential files and privilege modifications.
-
-- **[pfSense-Suricata-NIPS-Lab](https://github.com/JacobJohn7/pfSense-Suricata-NIPS-Lab)**  
-  Enterprise virtual firewall deployment (`pfSense 2.7.2`) configured as a central gateway for a multi-VM lab. Features hard network isolation (NAT disabled on client VMs to enforce 100% gateway inspection), **Suricata Inline NIPS** via BSD `netmap`, `snort2c` kernel table IP blocking, and **pfBlockerNG-devel** DNSBL domain sinkholing via Unbound DNS resolver.
-
-- **[Windows-OS-Hardening-Sysmon-Lab](https://github.com/JacobJohn7/Windows-OS-Hardening-Sysmon-Lab)**  
-  Windows 10 endpoint security hardening aligned with CIS Benchmarks (disabling SMBv1, LLMNR/NBT-NS, administrative auto-shares) and PowerShell Script Block Logging (Event ID 4104). Deploys **Sysmon v15.x** with custom XML telemetry rules for process creation (`Event ID 1`), network connections (`Event ID 3`), executable drops (`Event ID 11`), and DNS queries (`Event ID 22`).
-
-- **[Network-Traffic-Analysis-IDS-Lab](https://github.com/JacobJohn7/Network-Traffic-Analysis-IDS-Lab)**  
-  Network traffic analysis and intrusion detection lab combining **`tshark`** CLI PCAP triage (HTTP request extraction, TCP SYN scan aggregation), **`Zeek`** protocol session logging (`conn.log`, `http.log`, `dns.log`), custom **`Suricata`** web shell signatures (`local.rules`), and VirtualBox TCP checksum offloading configuration (`checksum-validation: no`).
-
----
-
-### Core Technical Toolkit
-
-- **Active Directory & Identity:** AD DS, Domain Controller (Windows Server 2019/2022), Group Policy (GPO), Kerberos, LDAP/LDAPS, PowerShell ActiveDirectory Module, WinRM.
-- **SIEM & Log Analytics:** Wazuh SIEM Manager, Real-Time FIM (Syscheck), OpenSearch Indexer, Wazuh Dashboard, Splunk Enterprise, SPL Queries, Universal Forwarder, Windows Event Viewer, Sysmon Operational Channel, MITRE ATT&CK Mapping.
-- **Network Security & Firewalls:** pfSense 2.7.x, Suricata (NIDS/NIPS), pfBlockerNG-devel, Unbound DNS Resolver, BSD `netmap`, `pfctl`, UFW, Fail2Ban.
-- **Endpoint Hardening & OS:** OpenSSH Hardening, Linux Auditd, CIS Benchmarks, Sysmon v15.x, Windows Server 2019/2022, Ubuntu Server/Desktop, Arch Linux.
-- **Packet Analysis & Telemetry:** Zeek (Bro), `tshark` / Wireshark, PCAP slicing, TCP/IP protocol dissection.
-
----
-
-### Contact & Links
-
-- **GitHub Profile:** [github.com/JacobJohn7](https://github.com/JacobJohn7)
-- **Target Certification:** CompTIA Security+ (SY0-801)
+> *"Security is not just about blocking attacks — it’s about understanding the environment, detecting changes, and responding with clarity."*
