@@ -1,144 +1,36 @@
-# Hi, I'm Jacob John 👋
+# Jacob John
+### Junior SOC Analyst | Blue Team & Threat Detection | Cybersecurity Practitioner
 
-![Wazuh SIEM](https://img.shields.io/badge/Wazuh_SIEM-000000?style=for-the-badge&logo=wazuh&logoColor=white)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
-![pfSense](https://img.shields.io/badge/pfSense-212529?style=for-the-badge&logo=pfsense&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![CompTIA Sec+](https://img.shields.io/badge/CompTIA-Security%2B_SY0--801-FF0000?style=for-the-badge&logo=comptia&logoColor=white)
-
-Cybersecurity student preparing for **CompTIA Security+ (SY0-801)** with a focus on Security Operations Center (SOC) analysis, network security monitoring (NSM), Active Directory administration, and endpoint hardening.
-
-> Google Cybersecurity Certified | TryHackMe SOC Level 1 | Interested in SOC analysis, threat detection, AD administration, and proactive security operations
-
-## About Me
-
-I’m a cybersecurity learner building practical, real-world lab environments and completing hands-on security modules to strengthen my defensive security operations skills.
-
-My focus includes:
-- SOC analysis and security monitoring
-- Network Security Monitoring (NSM)
-- Active Directory administration and identity security
-- Endpoint hardening and system resilience
-- Log correlation, detection engineering, and incident response fundamentals
-
-I enjoy building virtual labs with tools like VirtualBox, pfSense, Windows Server, Active Directory, Ubuntu, and Arch Linux to study how attackers operate and how defenders detect, contain, and mitigate threats.
-
-## Security Labs
-
-### [Wazuh SIEM + FIM Lab](https://github.com/JacobJohn7/Wazuh-SIEM-FIM-Lab)
-Enterprise-style SIEM deployment on Ubuntu 22.04 using Wazuh 4.12.0 to monitor a Windows 10 endpoint.
-
-Key areas:
-- Centralized File Integrity Monitoring (FIM)
-- Windows Event Channel log ingestion
-- Detection of high-risk privilege escalation activity
-- Event correlation mapped to MITRE ATT&CK techniques
-
-### [Active Directory Lab](https://github.com/JacobJohn7/Active-Directory-Lab-Homelab)
-Windows Server 2019 homelab environment using Active Directory Domain Services.
-
-Key areas:
-- Domain controller setup and AD architecture
-- OU, group, and user provisioning via PowerShell
-- Domain-joined Windows 10 workstation configuration
-- AD service and port review (Kerberos, LDAP, SMB, WinRM, Global Catalog)
-
-### [Linux Server Hardening + Auditd + Fail2Ban Lab](https://github.com/JacobJohn7/Linux-Server-Hardening-Auditd-Fail2ban)
-Ubuntu hardening lab focused on secure Linux operations and monitoring.
-
-Key areas:
-- SSH daemon hardening
-- UFW stateful firewall policy
-- Fail2Ban intrusion prevention setup
-- Auditd security monitoring for credential and privilege changes
-
-### [pfSense + Suricata NIPS Lab](https://github.com/JacobJohn7/pfSense-Suricata-NIPS-Lab)
-Virtualized network defense environment using pfSense 2.7.x and Suricata.
-
-Key areas:
-- Gateway-focused traffic inspection
-- Network isolation and enforcement
-- Inline IDS/NIPS configuration via BSD netmap
-- DNS sinkholing and blocklist enforcement
-
-### [Windows OS Hardening + Sysmon Lab](https://github.com/JacobJohn7/Windows-OS-Hardening-Sysmon-Lab)
-Windows 10 endpoint security lab aligned with hardening best practices.
-
-Key areas:
-- CIS-style configuration hardening
-- SMBv1 and legacy protocol removal
-- PowerShell Script Block Logging (Event ID 4104)
-- Sysmon telemetry for process, network, file, and DNS activity
-
-### [Network Traffic Analysis + IDS Lab](https://github.com/JacobJohn7/Network-Traffic-Analysis-IDS-Lab)
-Traffic analysis and packet triage focused on detection and forensics.
-
-Key areas:
-- tshark and Wireshark-based PCAP triage
-- Zeek log review
-- Suricata custom signature work
-- Network protocol and session inspection
-
-## Core Technical Toolkit
-
-### Active Directory & Identity
-- Active Directory Domain Services
-- Group Policy (GPO)
-- Kerberos
-- LDAP / LDAPS
-- PowerShell ActiveDirectory module
-- WinRM
-
-### SIEM & Log Analytics
-- Wazuh SIEM
-- File Integrity Monitoring (Syscheck)
-- Windows Event Viewer
-- Sysmon
-- Splunk
-- MITRE ATT&CK mapping
-- Log correlation and alert triage
-
-### Network Security & Firewalls
-- pfSense 2.7.x
-- Suricata (NIDS/NIPS)
-- pfBlockerNG-devel
-- Unbound DNS Resolver
-- UFW
-- Fail2Ban
-
-### Endpoint Hardening & OS Security
-- Ubuntu Server / Desktop
-- Arch Linux
-- Windows Server 2019 / 2022
-- OpenSSH hardening
-- Linux Auditd
-- CIS benchmarking
-
-### Packet Analysis & Telemetry
-- Zeek (Bro)
-- tshark / Wireshark
-- PCAP review
-- TCP / IP protocol analysis
-
-## Certifications & Training
-
-- **Google Cybersecurity Professional Certificate** (Coursera)
-- **TryHackMe — SOC Level 1 Learning Path** *(Completed Nov 2025 · 65+ Hours · Cert ID: `THM-3FTSMN5VCZ`)*
-
-## Contact & Links
-
-- **GitHub:** [github.com/JacobJohn7](https://github.com/JacobJohn7)
-- **LinkedIn:** [linkedin.com/in/jacob-john-97b589331](https://linkedin.com/in/jacob-john-97b589331/)
-
-## Current Focus
-
-I’m building hands-on experience in defensive security by:
-- Simulating enterprise environments
-- Practicing detection and response workflows on TryHackMe & homelabs
-- Hardening endpoints and services
-- Learning how to trace malicious activity across systems and networks
+Passionate Cybersecurity practitioner with a focus on **Security Operations Center (SOC) analysis**, **network security monitoring**, and **active defense engineering**. I build and deploy isolated virtual laboratory environments to simulate attack vectors, write detection rules, and analyze threats.
 
 ---
 
-> *"Security is not just about blocking attacks — it’s about understanding the environment, detecting changes, and responding with clarity."*
+### 🛡️ Core Competencies
+*   **SIEM & Analytics:** Wazuh, Splunk, OpenSearch, Log Correlation.
+*   **Network Defense:** pfSense, Suricata NIDS/NIPS, Zeek, Wireshark.
+*   **Endpoint Security:** Sysmon, Auditd, Windows/Linux Hardening.
+*   **Identity & Access:** Active Directory (AD DS), Group Policy, LDAP/Kerberos.
+*   **Tools & Scripting:** Python, PowerShell, Bash, SQL, MITRE ATT&CK.
+
+---
+
+### 🏗️ Hands-On Lab Portfolio
+I document all my security projects to demonstrate practical application of defensive techniques:
+
+| Project | Key Technologies | Focus |
+| :--- | :--- | :--- |
+| [Wazuh SIEM FIM](https://github.com/JacobJohn7/Wazuh-SIEM-FIM-Lab) | Wazuh, Ubuntu, Windows | Real-time File Integrity Monitoring |
+| [Active Directory Lab](https://github.com/JacobJohn7/Active-Directory-Lab-Homelab) | Windows Server, AD DS, PowerShell | Domain Security & Provisioning |
+| [pfSense NIPS](https://github.com/JacobJohn7/pfSense-Suricata-NIPS-Lab) | pfSense, Suricata, Unbound | Network Isolation & Inline NIPS |
+| [Windows Hardening](https://github.com/JacobJohn7/Windows-OS-Hardening-Sysmon-Lab) | Windows, Sysmon, CIS | Endpoint Hardening & Telemetry |
+| [Linux Hardening](https://github.com/JacobJohn7/Linux-Server-Hardening-Auditd-Fail2ban) | Linux, UFW, Fail2Ban, Auditd | SSH & Host Security |
+
+---
+
+### 🎓 Certifications
+*   **CompTIA Security+ (SY0-701)** — Candidate / In-Progress
+*   **Google Cybersecurity Professional Certificate**
+*   **TryHackMe SOC Level 1 Pathway**
+
+---
+📫 **Get in touch:** [LinkedIn](https://www.linkedin.com/in/jacob-john-97b589331) | [Email](mailto:jacobjohnktpn@gmail.com)
